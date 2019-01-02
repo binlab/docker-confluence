@@ -2,7 +2,7 @@ FROM openjdk:8u121-alpine
 
 LABEL maintainer="Mark <mark.binlab@gmail.com>"
 
-ARG CONFLUENCE_SERVER_VERS=6.2.4
+ARG CONFLUENCE_SERVER_VERS=6.3.4
 ARG PGSQL_JDBC_VERS=42.1.1
 ARG MYSQL_JDBC_VERS=5.1.38
 
