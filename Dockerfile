@@ -2,9 +2,9 @@ FROM openjdk:8u181-alpine
 
 LABEL maintainer="Mark <mark.binlab@gmail.com>"
 
-ARG CONFLUENCE_SERVER_VERS=6.7.2
-ARG PGSQL_JDBC_VERS=42.1.4
-ARG MYSQL_JDBC_VERS=5.1.45
+ARG CONFLUENCE_SERVER_VERS=6.8.2
+ARG PGSQL_JDBC_VERS=42.2.5
+ARG MYSQL_JDBC_VERS=5.1.46
 
 ARG CONFLUENCE_VAR=/var/atlassian/confluence
 ARG CONFLUENCE_OPT=/opt/atlassian/confluence
