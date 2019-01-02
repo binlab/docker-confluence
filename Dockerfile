@@ -1,8 +1,8 @@
-FROM openjdk:8u181-alpine
+FROM openjdk:8u181-jdk-alpine3.8
 
 LABEL maintainer="Mark <mark.binlab@gmail.com>"
 
-ARG CONFLUENCE_SERVER_VERS=6.11.2
+ARG CONFLUENCE_SERVER_VERS=6.12.2
 ARG PGSQL_JDBC_VERS=42.2.5
 ARG MYSQL_JDBC_VERS=5.1.46
 
